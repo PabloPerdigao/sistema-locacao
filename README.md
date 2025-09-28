@@ -27,7 +27,7 @@ O diagrama do modelo relacional está disponível em `docs/modelo_relacional.png
 
 ## 🗒️ Como Usar
 
-### 1. Execução do Script
+### Execução do Script
 ```sql
 -- Execute o script principal no Oracle SQL Developer
 @C:\scripts\sistema_locadora_filmes.sql

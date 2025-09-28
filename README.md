@@ -11,7 +11,7 @@ sistema-locadora/
 ├── scripts/
 │   └── sistema_locadora_filmes.sql    #script do banco de dados
 ├── docs/
-│   └── modelo_relacional.png        #dfagrama do modelo relacional
+│   └── modelo_relacional.png        #arquivos do diagrama de modelo relacional
 └── README.md                        #Este arquivo
 ```
 

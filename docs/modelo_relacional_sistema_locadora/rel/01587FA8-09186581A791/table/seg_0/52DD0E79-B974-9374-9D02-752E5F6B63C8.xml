@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52DD0E79-B974-9374-9D02-752E5F6B63C8" name="T_ITENS">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>8B52ADF5-3F07-5CF4-A261-0365F8F90CD8</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_item" id="1A077A17-0607-4E1D-FA93-EEE380624A9B">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>A3439AB9-59BC-A09B-6E11-C390C9DFACBF</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LOCACAO_id_locacao" id="E948C0B2-3073-F43A-D47A-6521BDA7558B">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>DCD86804-0BB8-85FE-2AF1-85C9EAFD4E6F</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="602A714E-3041-30EB-0322-5559F1D27B2C" referredColumn="A7A7337E-A604-F5ED-0418-FB03D3380815"/>
+</associations>
+</Column>
+<Column name="titulo_item" id="908DA1AB-DB9C-B8D6-3F90-F07582E88151">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>630DD6BE-8028-F664-E8A5-9F1E2E1C5764</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ctg_item" id="8802D6AF-494C-04CF-8453-497C8516A258">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>A3912D5B-0645-2D90-D6DF-CCCACEF36919</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano_lancamento" id="BDEBA2A4-4C70-0641-ABC9-ACF35814225D">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>36812012-D4F6-C7FD-0621-49F149BB4B67</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fx_etaria" id="548FA996-88BE-B547-2688-D474A9596B5A">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>D4D85379-E6EB-4B9E-3196-22EE1DFBF1C7</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_copias_total" id="7B635961-962F-14E0-9506-13D7364523F5">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>85AFE737-8D01-FAB2-562B-4D55EE484FD4</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_copias_disponiveis" id="A961596B-C9C7-BC5D-0F48-38151BD39CAA">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>D2A120A1-0602-8BDC-5239-48247836CDC9</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="290C9C7D-9ED6-5F00-F55B-4465905499E2" name="T_ITENS_PK">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>D434D05D-4168-BBF7-2082-D1C515ECED9B</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A077A17-0607-4E1D-FA93-EEE380624A9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9045AAFE-DD43-B378-4F7B-00F8D59528E6" name="T_ITENS_T_LOCACAO_FK">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>4C193A9A-B71C-BECE-34AF-9874FF70EEE4</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E948C0B2-3073-F43A-D47A-6521BDA7558B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

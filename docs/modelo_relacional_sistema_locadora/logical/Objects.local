@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="D4071733-3A40-A993-607C-F71266B51003" name="T_CLIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="178390C3-5DE1-F294-5A95-0EB002261B76" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8B52ADF5-3F07-5CF4-A261-0365F8F90CD8" name="T_ITENS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="178390C3-5DE1-F294-5A95-0EB002261B76" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="C005DF92-F13D-85B4-88DE-FABBC9E6DF6F" name="T_LOCACAO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="178390C3-5DE1-F294-5A95-0EB002261B76" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="B33E7F47-52C3-1FDF-A8AE-AA10A2CA9241" name="locar" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="178390C3-5DE1-F294-5A95-0EB002261B76" propertySourceId="D4071733-3A40-A993-607C-F71266B51003" propertyTargetId="C005DF92-F13D-85B4-88DE-FABBC9E6DF6F"/>
+   <object objectType="Relation" objectID="4C193A9A-B71C-BECE-34AF-9874FF70EEE4" name="locarv2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="178390C3-5DE1-F294-5A95-0EB002261B76" propertySourceId="C005DF92-F13D-85B4-88DE-FABBC9E6DF6F" propertyTargetId="8B52ADF5-3F07-5CF4-A261-0365F8F90CD8"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

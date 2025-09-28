@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="locar" directorySegmentName="seg_0" id="B33E7F47-52C3-1FDF-A8AE-AA10A2CA9241">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:53:25 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<sourcePk>423CDBD4-AD16-03E6-1B17-86778EF59688</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D4071733-3A40-A993-607C-F71266B51003</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C005DF92-F13D-85B4-88DE-FABBC9E6DF6F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

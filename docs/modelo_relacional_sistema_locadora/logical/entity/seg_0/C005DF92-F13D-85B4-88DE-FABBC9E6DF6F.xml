@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C005DF92-F13D-85B4-88DE-FABBC9E6DF6F" name="T_LOCACAO">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:50:04 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_locacao" id="BAFCAA0A-A163-B470-9265-27DD6DCEBA9F">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:50:22 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="B6D423C3-7E45-3A4D-0115-C8EF09932E8E">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:14:14 UTC</createdTime>
+<generatorID>B33E7F47-52C3-1FDF-A8AE-AA10A2CA9241</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<referedAttribute>AD42CF0A-42F7-300C-FD24-0F9A1E3114DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_item" id="ABD49902-82B4-0D74-C551-0EBF3466F3BB">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:19:17 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cliente" id="0E5B1882-F273-6A91-C4B2-8D8D0A41BC74">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:54:26 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_locacao" id="CAEA45BA-3D75-B84C-C9F1-CA467FAC82EE">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:51:02 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_prevista" id="F5779E55-EF16-1565-6E88-6E0898C49D09">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:51:39 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_devolucao" id="05D4E425-1B0A-42F6-5AC3-60B65DE33F54">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:51:53 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sts_locacao" id="41056D1E-58D6-9BF1-FC65-D93D64CBDB07">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:52:14 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3160245E-05E8-18DA-E0B5-C334151ADD31" name="T_LOCACAO PK">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:50:29 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BAFCAA0A-A163-B470-9265-27DD6DCEBA9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

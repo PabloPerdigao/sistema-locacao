@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B52ADF5-3F07-5CF4-A261-0365F8F90CD8" name="T_ITENS">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:45:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_item" id="A3439AB9-59BC-A09B-6E11-C390C9DFACBF">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:45:21 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_locacao" id="DCD86804-0BB8-85FE-2AF1-85C9EAFD4E6F">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:09:04 UTC</createdTime>
+<generatorID>4C193A9A-B71C-BECE-34AF-9874FF70EEE4</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<referedAttribute>BAFCAA0A-A163-B470-9265-27DD6DCEBA9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo_item" id="630DD6BE-8028-F664-E8A5-9F1E2E1C5764">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:45:56 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ctg_item" id="A3912D5B-0645-2D90-D6DF-CCCACEF36919">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:46:31 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano_lancamento" id="36812012-D4F6-C7FD-0621-49F149BB4B67">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:46:56 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fx_etaria" id="D4D85379-E6EB-4B9E-3196-22EE1DFBF1C7">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:47:38 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd_copias_total" id="85AFE737-8D01-FAB2-562B-4D55EE484FD4">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:48:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd_copias_disponiveis" id="D2A120A1-0602-8BDC-5239-48247836CDC9">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:48:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D434D05D-4168-BBF7-2082-D1C515ECED9B" name="T_ITENS PK">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:45:33 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3439AB9-59BC-A09B-6E11-C390C9DFACBF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

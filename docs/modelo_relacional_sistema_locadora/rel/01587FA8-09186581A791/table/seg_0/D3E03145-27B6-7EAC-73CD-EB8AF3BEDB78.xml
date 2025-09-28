@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3E03145-27B6-7EAC-73CD-EB8AF3BEDB78" name="T_LOCACAO">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>C005DF92-F13D-85B4-88DE-FABBC9E6DF6F</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_locacao" id="A7A7337E-A604-F5ED-0418-FB03D3380815">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>BAFCAA0A-A163-B470-9265-27DD6DCEBA9F</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CLIENTE_id_cliente" id="DE33D915-99A7-7759-7C37-CE4CF4BD0271">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>B6D423C3-7E45-3A4D-0115-C8EF09932E8E</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D4D72F4-20A7-55A7-EFA4-7D945BCC1D17" referredColumn="3BFD9740-7BD5-F0CC-261F-AE1DD32FBAE6"/>
+</associations>
+</Column>
+<Column name="id_item" id="595F8A38-D743-4568-FE89-7E795A87598F">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>ABD49902-82B4-0D74-C551-0EBF3466F3BB</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cliente" id="1F29B08F-C854-F528-42F7-0091BC462EC2">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>0E5B1882-F273-6A91-C4B2-8D8D0A41BC74</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_locacao" id="39F52627-2B86-07A2-15E1-8A159F37CED9">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>CAEA45BA-3D75-B84C-C9F1-CA467FAC82EE</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_prevista" id="8778A8B6-0402-5306-E3B2-A46D3997AFA0">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>F5779E55-EF16-1565-6E88-6E0898C49D09</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_devolucao" id="B0DF3CD1-6D6B-BCCA-F288-13849DC7E232">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>05D4E425-1B0A-42F6-5AC3-60B65DE33F54</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sts_locacao" id="2FA298CB-B262-2B98-B893-90AB1FBB3DD5">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>41056D1E-58D6-9BF1-FC65-D93D64CBDB07</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8876B6C7-999D-75B0-809E-D83E22B4ED08" name="T_LOCACAO_PK">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>3160245E-05E8-18DA-E0B5-C334151ADD31</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7A7337E-A604-F5ED-0418-FB03D3380815"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F62126F-4E40-AE0D-2D3C-87F30C4B8734" name="T_LOCACAO_T_CLIENTE_FK">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 18:36:59 UTC</createdTime>
+<generatorID>B33E7F47-52C3-1FDF-A8AE-AA10A2CA9241</generatorID>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE33D915-99A7-7759-7C37-CE4CF4BD0271"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

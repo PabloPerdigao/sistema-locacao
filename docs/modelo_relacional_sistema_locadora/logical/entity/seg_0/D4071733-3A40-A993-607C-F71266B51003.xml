@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4071733-3A40-A993-607C-F71266B51003" name="T_CLIENTE">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:36:09 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="AD42CF0A-42F7-300C-FD24-0F9A1E3114DC">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:36:31 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cliente" id="CD24428E-A74B-D8FE-481F-E92C3F21E4A8">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:38:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_cliente" id="6BD5F513-216E-3CD2-5D52-D7ECEE56A2C5">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:39:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel_cliente" id="9F9F5DEC-F5E2-07F0-2FE6-DD090E5CFCB3">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:41:50 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_cliente" id="A13A889D-E2EB-E068-58F2-81DA02352A2E">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:42:43 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="423CDBD4-AD16-03E6-1B17-86778EF59688" name="T_CLIENTE PK">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:38:25 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<engineerTo>
+<item key="01587FA8-84CC-8AA3-754A-09186581A791" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD42CF0A-42F7-300C-FD24-0F9A1E3114DC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_relacional_sistema_locadora" id="1A825201-3218-F55A-036D-68E05EE13984" version="3.5">
+<createdBy>pablo</createdBy>
+<createdTime>2025-09-28 17:35:08 UTC</createdTime>
+<ownerDesignName>modelo_relacional_sistema_locadora</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1A825201-3218-F55A-036D-68E05EE13984</designId>
+</OSDM_Design>
